@@ -9,7 +9,7 @@ if ($args.count -gt 0 -And $args[0] -in ("advert.jpg", "letter.jpg", "note.jpg")
     $img_file = $args[0]
 }
 
-$img = "https://raw.githubusercontent.com/MicrosoftLearning/AI-900-AIFundamentals/main/data/vision/$img_file"
+$img = "https://raw.githubusercontent.com/pacosepulveda/Introduccion-Machine-Learning/main/data/vision/$img_file"
 
 $headers = @{}
 $headers.Add( "Ocp-Apim-Subscription-Key", $key )
